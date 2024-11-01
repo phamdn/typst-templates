@@ -26,7 +26,7 @@
 
   // Display sender at top of page. If there's no sender
   // add some hidden text to keep the same spacing.
-  text(9pt, if sender == none {
+  text(12pt, if sender == none {
     hide("a")
   } else {
     sender
