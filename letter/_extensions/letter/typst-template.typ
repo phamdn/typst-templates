@@ -51,9 +51,11 @@
 
   // Add the subject line, if any.
   if subject != none {
-    pad(right: 10%, strong(subject))
+    strong(subject)
   }
-
+  
+  v(0.5cm)
+  
   // Add body and name.
   body
   v(1.25cm)
