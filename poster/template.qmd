@@ -5,7 +5,7 @@ format:
     size: "36x24"
     poster-authors: "A. Smith, B. Jones, C. Brown, D. Miller"
     departments: "Department of Computer Science"
-    institution-logo: "./images/ncstate.png"
+    institution-logo: "images/ncstate.png"
     footer-text: "posit::conf 2023"
     footer-url: "https://posit.co/conference/"
     footer-emails: "abc@example.com"
@@ -82,5 +82,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   - Lorem ipsum dolor sit amet, consectetur adipiscing.
 
 $$
-\sum_(k=1)^n k = \frac{(n(n+1))}{2} = \frac{(n^2 + n)}{2}
+\sum_{k=1}^n k = \frac{n(n+1)}{2} = \frac{n^2 + n}{2}
 $$
