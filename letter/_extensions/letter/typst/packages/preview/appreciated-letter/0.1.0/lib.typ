@@ -20,7 +20,7 @@
   body
 ) = {
   // Configure page and text properties.
-  set page(paper: "a4", margin: (top: 2cm))
+  set page(paper: "a4", margin: (top: 2cm, x: 2cm))
   set text(font: "PT Sans", size: 12pt)
   set par(justify: true)
 
