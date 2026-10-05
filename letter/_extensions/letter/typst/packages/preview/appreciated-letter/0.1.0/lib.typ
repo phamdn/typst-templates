@@ -20,12 +20,13 @@
   body
 ) = {
   // Configure page and text properties.
-  set page(margin: (top: 2cm))
-  set text(font: "PT Sans")
+  set page(paper: "a4", margin: (top: 2cm))
+  set text(font: "PT Sans", size: 12pt)
+  set par(justify: true)
 
   // Display sender at top of page. If there's no sender
   // add some hidden text to keep the same spacing.
-  text(9pt, if sender == none {
+  text(12pt, if sender == none {
     hide("a")
   } else {
     sender
